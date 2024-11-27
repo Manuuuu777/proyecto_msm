@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Cultura Griega</title>
+    <link rel="stylesheet" href="css/contact.css">
+    
+</head>
+<body>
+    <div class="top-bar">
+        <form action="buscar.html" method="get">
+            <input type="text" name="query" placeholder="Buscar...">
+            <button type="submit">Buscar</button>
+        </form>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="images/X.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="index.html"><img src="images/pagina-de-inicio.png" alt="Email"></a>
+        </div>
+    </div>
+    <header>
+        <h1>Cultura Griega</h1>
+    </header>
+    <main>
+        <div class="nav-images">
+            <a href="historia.html">
+                <img src="images/libro-de-historia.png" alt="Historia">
+                <p>Historia</p>
+            </a>
+            <a href="mitologia.html">
+                <img src="images/zeus.png" alt="Mitología">
+                <p>Mitología</p>
+            </a>
+            <a href="arte.html">
+                <img src="images/milo-venus.png" alt="Arte">
+                <p>Arte</p>
+            </a>
+            <a href="arquitectura.html">
+                <img src="images/templo-griego.png" alt="Arquitectura">
+                <p>Arquitectura</p>
+            </a>
+        </div>
+        <section>
+            <h2>Envíanos un Mensaje</h2>
+            <form action="send_email.php" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cultura Griega. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
