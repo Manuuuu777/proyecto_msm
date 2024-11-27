@@ -83,21 +83,6 @@
     <footer>
         <p>&copy; 2024 Cultura Griega. Todos los derechos reservados.</p>
     </footer>
-    <script>
-        document.querySelector('form').addEventListener('submit', function(event) {
-            event.preventDefault();
-            const correctAnswer = event.target.querySelector('input[name="correct-answer"]').value;
-            const selectedAnswer = event.target.querySelector('input[name="dios"]:checked').value;
-            const resultElement = document.getElementById('quiz-result');
-            
-            if (selectedAnswer === correctAnswer) {
-                resultElement.textContent = '¡Correcto! Poseidón es el dios del mar en la mitología griega.';
-                resultElement.className = 'correct';
-            } else {
-                resultElement.textContent = 'Incorrecto. La respuesta correcta es Poseidón.';
-                resultElement.className = 'incorrect';
-            }
-        });
-    </script>
+    
 </body>
 </html>
