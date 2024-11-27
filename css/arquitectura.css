@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('encabezado.png');
+    background-size: cover;
+    background-position: center;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 50px 0;
+    border-bottom: 5px solid #c1a461;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    text-shadow: 2px 2px #000000;
+}
+
+.nav-images {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    background-color: #2c3e50;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nav-images img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.nav-images img:hover {
+    transform: scale(1.1);
+}
+
+section {
+    margin: 40px 20px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.timeline-item {
+    background: #ffffff;
+    color: #2c3e50;
+    padding: 10px;
+    border-left: 5px solid #e74c3c;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.timeline-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+section h2 {
+    color: #c1a461;
+    text-shadow: 1px 1px #000000;
+}
+
+iframe {
+    border: none;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #c1a461;
+    text-align: center;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    padding: 10px;
+    color: white;
+}
+.top-bar form {
+    display: flex;
+}
+.top-bar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+.top-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #c1a461;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.top-bar .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+header {
+    background-image: url('encabezado.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+.nav-images {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.nav-images img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+.nav-images a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.nav-images p {
+    margin: 0;
+}
+section {
+    margin-bottom: 40px;
+}
+.content-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
